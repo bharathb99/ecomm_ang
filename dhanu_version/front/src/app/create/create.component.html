@@ -1,0 +1,65 @@
+<p>create works!</p>
+
+
+<h1>Create Retailer Form</h1> 
+<form [formGroup] = "createForm">
+ 
+    <div class = "form-group">
+
+        <label>Name</label>
+        <input [class.is-invalid]="c.userName.invalid && c.userName.touched" 
+         formControlName="userName"  type="text" placeholder="Enter the User Name" class="form-control" >
+         <small [class.d-none]="c.userName.valid || c.userName.untouched" class="text-danger">Username is required</small>
+        
+    </div>
+    
+
+    <div class = "form-group" >
+          
+        <label>Email</label>
+        <input  [class.is-invalid]="c.email.invalid && c.email.touched" 
+        formControlName="email" type="email" placeholder="Enter the email address" class="form-control">
+    </div>
+       
+    
+    
+
+    
+    <div>
+        <label>Phone</label>
+        <input  [class.is-invalid]="c.phNumber.invalid && c.phNumber.touched" 
+        formControlName="phNumber" type="number" placeholder="Enter Phone Number" class="form-control">
+    </div>
+   
+    <div class = "form-group">
+          
+        <label>Password</label>
+        <input  [class.is-invalid]="c.password.invalid && c.password.touched" 
+        formControlName="password" type="password" placeholder="password" class="form-control">
+    </div>
+
+    <div class = "form-group">
+
+        <label>Country</label>
+        <input [class.is-invalid]="c.country.invalid && c.country.touched"
+        formControlName="country" type="name" placeholder="Country" class="form-control" required>
+    </div>
+    
+   
+    <button type="submit" class="btn btn-primary">Save</button>
+   
+   </form>
+   Value: {{ createForm.value | json}}
+
+
+
+   <!-- [class.is-invalid]="createForm.get('userName').invalid && createForm.get('userName').touched" -->
+
+    <!-- <div *ngIf="c.email.invalid && (c.email.dirty || c.email.touched)"
+    class="alert alert-danger"></div>
+-->
+    <!-- <div *ngIf="c.email.errors?.required">
+        Email is required.
+      </div>  -->
+      <!-- [class.is-invalid]="createForm.get('email').invalid && createForm.get('email').touched"  -->
+    <!-- [ngClass] = "{'has-error':createForm.get('email').errors}"> -->
