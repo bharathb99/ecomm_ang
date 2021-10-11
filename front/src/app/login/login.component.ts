@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-login',
+  selector: 'login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   loginForm = new FormGroup({
     email : new FormControl('bharath'),
     password : new FormControl('')
-  })
+  });
   
   constructor( private formBuilder: FormBuilder){}
 

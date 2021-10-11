@@ -1,0 +1,99 @@
+<p>admin works!</p>
+
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+<h1 style="color: rgb(69, 125, 230);">Ecommerce</h1>
+<div class="d-flex">
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create</button>
+    </div>
+</div>
+
+</nav>
+
+<div class="container mt-5 px-2">
+    <div class="mb-2 d-flex justify-content-between align-items-center">
+   
+    <div class="table-responsive">
+      <table class="table table-responsive table-borderless">
+        <thead>
+          <tr class="bg-dark text-light">
+            <th scope="col" class="text-center">Id</th>
+            <th scope="col" class="text-center">First name</th>
+            <th scope="col" class="text-center">Last name</th>
+            <th scope="col" class="text-center">Gender</th>
+            <th scope="col" class="text-center">Email</th>
+            <th scope="col" class="text-center">Phone</th>
+            <th scope="col" class="text-center">D.O.B</th>
+            <th scope="col" class="text-center">DoorNo</th>
+            <th scope="col" class="text-center">Street</th>
+            <th scope="col" class="text-center">City</th>
+            <th scope="col" class="text-center">Pincode</th>
+            <th scope="col" class="text-center"><span>Delete</span></th>
+            <th scope="col" class="text-center"><span>Bookings</span></th>
+          </tr>
+        </thead>
+        <!-- <tbody>
+          <tr *ngFor='let customer of customers'>
+            <td class="text-center">{{customer.customerID}}</td>
+            <td class="text-center">{{customer.customerName.fname}}</td>
+            <td class="text-center">{{customer.customerName.lname}}</td>
+            <td class="text-center">{{customer.gender}}</td>
+            <td class="text-center">{{customer.email}}</td>
+            <td class="text-center">{{customer.phone}}</td>
+            <td class="text-center">{{customer.dateOfBirth}}</td>
+            <td class="text-center">{{customer.address.doorno}}</td>
+            <td class="text-center">{{customer.address.street}}</td>
+            <td class="text-center">{{customer.address.city}}</td>
+            <td class="text-center">{{customer.address.pincode}}</td>
+
+            <td class="text-center">
+              <button type="button" (click)='deleteCustomer(customer.customerID)'
+                class='btn btn-danger btn-sm far fa-trash-alt'></button>
+            </td>
+            <td class="text-center">
+              <button type="button" routerLink="/customer-bookings/{{customer.customerID}}"
+                routerLinkActive="active" class='btn btn-success btn-sm fa fa-book'></button>
+            </td>
+          </tr>
+
+        </tbody> -->
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- <table>
+    <thead>
+        <tr>
+            <th scope="col">Employee</th>
+            <th scope="col">first name</th>
+            <th scope="col">Edit</th>
+        
+        </tr>
+    </thead>
+</table>
+ -->
+
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
