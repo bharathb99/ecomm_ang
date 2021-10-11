@@ -1,19 +1,604 @@
 {
-  "posts": [
+  "userDetails": [
+    {
+      "id": 0,
+      "userName": "Eugene Braun",
+      "password": "pass123",
+      "role": "admin"
+    },
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "userName": "Merle Roberts Jr.",
+      "password": "pass123",
+      "role": "admin"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "userName": "bharath",
+      "password": "bhary",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "userName": "Melody Grimes",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "userName": "Ellen Batz",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 5,
+      "userName": "Essie Hauck",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 6,
+      "userName": "Philip Frami",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 7,
+      "userName": "Michael Bruen",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 8,
+      "userName": "Rex Lang",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 9,
+      "userName": "Irving Altenwerth Jr.",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 10,
+      "userName": "Lynne Cassin",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 11,
+      "userName": "Harry Hauck",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 12,
+      "userName": "Sheryl Bode",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 13,
+      "userName": "Karla Jakubowski",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 14,
+      "userName": "Carl Gleason",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 15,
+      "userName": "Zachary Wyman",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 16,
+      "userName": "Miss Tracy Morissette",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 17,
+      "userName": "Claude Hodkiewicz",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 18,
+      "userName": "Bill Larson",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 19,
+      "userName": "Christina Glover",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 20,
+      "userName": "Meghan Kemmer",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 21,
+      "userName": "Miss Misty Cronin",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 22,
+      "userName": "Dr. Jorge Waters",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 23,
+      "userName": "Miss Beverly Brakus",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 24,
+      "userName": "Earl Miller",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 25,
+      "userName": "Robyn Bauch",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 26,
+      "userName": "Vicki Ferry",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 27,
+      "userName": "Angelica Collier",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 28,
+      "userName": "Nina Kertzmann",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 29,
+      "userName": "Ms. Jesse Heaney",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 30,
+      "userName": "Everett Emmerich",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 31,
+      "userName": "Katrina Streich",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 32,
+      "userName": "Whitney Roberts",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 33,
+      "userName": "Lillie Gusikowski",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 34,
+      "userName": "Stanley Beier",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 35,
+      "userName": "Jonathan Halvorson",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 36,
+      "userName": "Mr. Sammy Schulist",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 37,
+      "userName": "Ollie Hickle",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 38,
+      "userName": "Mona Beatty",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 39,
+      "userName": "Tamara Feil",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 40,
+      "userName": "Mrs. Nellie Hodkiewicz",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 41,
+      "userName": "Ms. Latoya Stark",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 42,
+      "userName": "Paul Pacocha",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 43,
+      "userName": "Sean Glover",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 44,
+      "userName": "Lola Glover IV",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 45,
+      "userName": "Bonnie Johns PhD",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 46,
+      "userName": "Nora Dare",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 47,
+      "userName": "Amanda Stamm",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 48,
+      "userName": "Darryl Price",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 49,
+      "userName": "Miss Gail Bode",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 50,
+      "userName": "Kathleen Metz",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 51,
+      "userName": "Dora Schuppe",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 52,
+      "userName": "Jamie Muller",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 53,
+      "userName": "Ms. Alejandro Nader",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 54,
+      "userName": "Arthur Torphy",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 55,
+      "userName": "Preston Maggio",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 56,
+      "userName": "Javier Bruen",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 57,
+      "userName": "Perry Hagenes",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 58,
+      "userName": "Phyllis Leffler",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 59,
+      "userName": "Shannon Purdy",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 60,
+      "userName": "Whitney Kihn III",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 61,
+      "userName": "Rick Doyle",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 62,
+      "userName": "Ruth Lehner",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 63,
+      "userName": "David Friesen",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 64,
+      "userName": "Mr. Johnny Jacobs",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 65,
+      "userName": "Brenda Volkman",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 66,
+      "userName": "Victor Mosciski",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 67,
+      "userName": "Debra Schneider",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 68,
+      "userName": "Edmund Pfeffer",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 69,
+      "userName": "Joy White DVM",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 70,
+      "userName": "Levi Parker",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 71,
+      "userName": "Elvira Ledner",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 72,
+      "userName": "Rodolfo Huel",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 73,
+      "userName": "Ruben Lowe",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 74,
+      "userName": "Dr. Cathy Dietrich",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 75,
+      "userName": "Belinda Leannon",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 76,
+      "userName": "Scott Hermiston",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 77,
+      "userName": "Jake Strosin",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 78,
+      "userName": "Dr. Shane Welch",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 79,
+      "userName": "Stuart Nitzsche",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 80,
+      "userName": "Byron Langosh",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 81,
+      "userName": "Gerardo Casper",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 82,
+      "userName": "Grady Schmitt",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 83,
+      "userName": "Johnathan Sanford",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 84,
+      "userName": "Max Aufderhar DVM",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 85,
+      "userName": "Stacey Pouros",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 86,
+      "userName": "Dr. Damon Frami",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 87,
+      "userName": "Flora Pfeffer",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 88,
+      "userName": "Elaine Sporer",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 89,
+      "userName": "Latoya Blick",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 90,
+      "userName": "Sophie Dickinson",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 91,
+      "userName": "Carroll Mayert",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 92,
+      "userName": "Jean Boehm Sr.",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 93,
+      "userName": "Miss Vivian Rodriguez",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 94,
+      "userName": "Kelli Zboncak",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 95,
+      "userName": "Edwin Lesch",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 96,
+      "userName": "Chris Littel",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 97,
+      "userName": "Lucas Runte",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 98,
+      "userName": "Carmen Ratke",
+      "password": "pass123",
+      "role": "admin"
+    },
+    {
+      "id": 99,
+      "userName": "Gertrude Daniel V",
+      "password": "pass123",
+      "role": "admin"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
