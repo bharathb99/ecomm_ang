@@ -1199,6 +1199,15 @@
       "password": "pass123",
       "role": "admin",
       "status": "Active"
+    },
+    {
+      "userName": "bharath b",
+      "email": "bh@gmail.com",
+      "phNumber": 312342324,
+      "password": "pass123",
+      "country": "usa",
+      "status": "active",
+      "id": 100
     }
   ]
 }
